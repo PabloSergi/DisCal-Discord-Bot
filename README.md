@@ -229,3 +229,16 @@ This was messy and somewhat confusing. Since the 2.0 update, we now utilize prop
 > **NOTE**: Variables use `{N}` where `N` is the zero-indexed order it is passed through in code.
 >
 > In English, these are always in order `0, 1, 2... 5`.
+
+##Dont forget to install
+In project directory:
+1) echo "14" > .nvmrc
+2) nvm install 14
+nvm use 14
+node -v
+3) npm install
+4) npm install -g gulp
+gulp --version
+6) npm install -g webpack webpack-cli
+webpack --version
+8) ./gradlew clean jibDockerBuild
